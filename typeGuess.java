@@ -7,10 +7,12 @@ public class typeGuess
 
     Scanner scanner=new Scanner(System.in);
     while(true)
+      //while無限迴圈
     {
 
         int type=scanner.nextInt();
         if(type==-1)
+          //設定若打-1 迴圈就會終止
         {
             break;
         }
